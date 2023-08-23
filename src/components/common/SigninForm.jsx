@@ -101,6 +101,20 @@ const SigninForm = ({ switchAuthState }) => {
           </Alert>
         </Box>
       )}
+                            <table>
+                            <tr>
+                            <th>User Credentials</th>
+                            </tr>
+                            <tr>
+                            <td>Email</td>
+                            <td>user@gmail.com</td>
+                            </tr>
+                            <tr>
+                            <td>Password</td>
+                            <td>123456</td>
+                            </tr>
+                            </table>
+      
     </Box>
   );
 };
